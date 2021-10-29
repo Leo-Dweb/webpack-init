@@ -1,8 +1,8 @@
 
-import { saludar } from "./js/components";
+import { proyecto } from "./js/components";
 import './style.css';
 
 
-const nombre = 'Leonardo'
+const nombreProyecto = 'Inicia tu proyecto con WEBPACK'
 
-saludar( nombre )
+proyecto( nombreProyecto )

@@ -1,17 +1,15 @@
 
 import '../css/components.css'
 // import logowebpack from "../assets/img/webpack-logo.png";
+const divImg =  document.querySelector('.title-body')
 
+export const proyecto = ( nombreProyecto ) => {
 
-
-export const saludar = ( nombre ) => {
-  console.log(` Funcion saludar `)
-
-  const h1 = document.createElement('h1');
-  h1.innerText = ` Hola, ${nombre}!!`
-
-  document.body.append( h1 )
-
+  const divText = document.createElement('h1')
+  divText.innerText = `${nombreProyecto}`
+  divImg.append( divText )
+  
+  
   // *Img forma de pintar imagenes en el html creado a traves de JS
   // console.log({logowebpack})
   // const img = document.createElement('img')
